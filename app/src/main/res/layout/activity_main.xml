@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/english_with_abde"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="english with abde"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:background="@drawable/english"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/presenting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="your learning app"
+        android:textSize="20sp"
+        android:layout_below="@+id/english_with_abde"
+        android:background="@drawable/english"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="2dp"/>
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="email"
+        android:layout_below="@+id/presenting"/>
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="password"
+        android:layout_below="@+id/email_field"/>
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="SignIn"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/password_field"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#3700B3"
+        android:layout_below="@+id/SignIn"
+        android:layout_marginTop="24dp"
+        android:text="forgote password"/>
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_toRightOf="@+id/forgot_password"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/SignIn"
+        android:layout_marginTop="24dp"
+        android:textColor="#3700B3"/>
+</RelativeLayout>

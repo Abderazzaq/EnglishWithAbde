@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/Address_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/Email_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Address_Email"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/Full_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:layout_below="@+id/Email_Address"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/Name_Full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Full_Name"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_below="@+id/Name_Full"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Age"
+        android:layout_centerInParent="true"
+        android:textSize="26dp"/>
+    <Button
+        android:id="@+id/SignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignOut"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1039213666196",
+    "firebase_url": "https://englisheearningapp.firebaseio.com",
+    "project_id": "englisheearningapp",
+    "storage_bucket": "englisheearningapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039213666196:android:e5f85cdc4f516173e23981",
+        "android_client_info": {
+          "package_name": "com.example.englishlearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039213666196-j424ogue0o92ier4t72g87c7t3rbh408.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMUwFCzghokUKa3HizdObML9IOx9nc0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039213666196-j424ogue0o92ier4t72g87c7t3rbh408.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
